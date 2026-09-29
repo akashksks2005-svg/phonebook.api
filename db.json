@@ -1,0 +1,23 @@
+{
+  "contacts": [
+    {
+      "id": "P0nn-dQb9ko",
+      "name": "Light Alone",
+      "phone": "6379470026",
+      "email": "akashksks2005@gmail.com"
+    },
+    {
+      "id": "s-S7JE7KAhw",
+      "name": "AKASH",
+      "phone": "6379470067",
+      "email": "akashksks2009@gmail.com"
+    },
+    {
+      "id": "foH4cq__RZ8",
+      "name": "Light Alone",
+      "phone": "6379470026",
+      "email": "akashksks2005@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phoneBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h1>PHONEBOOK</h1> 
+
+    <div class="nav-links">
+  
+             <span>Save</span>
+             <span>Manage</span>
+             <span>StayConnect</span>
+    </div>   
+    </div>
+    
+<h2 style="font-size: medium; text-align: center; font-weight: bolder;">ADD NEW CONTACT</h2>
+    <div class="container">
+
+        
+
+<input type="hidden" id="contactid" name="id" value=""/> <br>
+<label for="contactname"> Contactname:</label>
+<input type="text" id="contactname" name="contactname" value=""/> <br>
+<label for="phoneNumber"> PhoneNumber:</label>
+<input type="text" id="phoneNumber" name="phoneNumber" value=""/> <br>
+<label for="emailid"> EmailID:</label>
+<input type="text" id="emailid" name="emailid" value=""/> <br>
+<div class="buttonbox">
+<button onclick="SaveData()" class="savebtn"> Save Contact</button>
+</div>
+</div>
+
+<table>
+<tr>
+<th>ConactName</th>
+<th>PhoneNumber</th>
+<th>EmailID</th>
+<th>action</th>
+
+
+
+</tr>
+
+<tbody id="result"></tbody>
+
+</table>
+
+
+<script src="script.js"></script>
+
+    </div>
+</body>
+</html>
